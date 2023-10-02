@@ -31,6 +31,9 @@ const SearchTabs = memo((props) => {
     )
 })
 
-SearchTabs.propTypes = {}
+SearchTabs.propTypes = {
+    titles: PropTypes.array,
+    tabClick: PropTypes.func
+}
 
 export default SearchTabs
