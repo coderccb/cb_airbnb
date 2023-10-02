@@ -28,4 +28,6 @@ class cbRequest {
     }
 }
 
-export default new cbRequest(BASE_URL, TIMEOUT)
+const request = new cbRequest(BASE_URL, TIMEOUT) 
+
+export default request
